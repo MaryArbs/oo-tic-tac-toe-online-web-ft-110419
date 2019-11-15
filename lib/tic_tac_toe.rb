@@ -61,8 +61,8 @@ def current_player
   else
     current_player = "O"
 end
-end
-return current_player
+end 
+
 end
 
 
