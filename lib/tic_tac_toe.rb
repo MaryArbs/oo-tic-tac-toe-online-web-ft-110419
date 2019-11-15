@@ -45,5 +45,10 @@ class TicTacToe
     end
   end
 
+  def turn_count
+    #count how many positions are taken on the board 
+    
+  end 
+
 
 end
