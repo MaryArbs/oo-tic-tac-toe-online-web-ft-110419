@@ -38,7 +38,7 @@ class TicTacToe
 
   def valid_move?(index)
     #checking if there is an X or O
-    if position_taken?(index)
+    if position_taken?(index) || index > 8 
       false
     else
       true
