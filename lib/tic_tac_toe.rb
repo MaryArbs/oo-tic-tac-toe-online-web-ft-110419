@@ -46,6 +46,9 @@ class TicTacToe
   end
 
   def turn_count
+    @board {|index| index.count}
+
+
     #count how many positions are taken on the board
 
   end
