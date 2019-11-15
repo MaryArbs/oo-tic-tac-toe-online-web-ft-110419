@@ -33,6 +33,6 @@ class TicTacToe
   end
 
   def position_taken(index)
-  end 
+  end
 
 end
