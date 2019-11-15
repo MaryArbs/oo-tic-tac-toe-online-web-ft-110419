@@ -65,9 +65,6 @@ return current_player
 end
 
 
-    #count how many positions are taken on the board
-
-  end
 
 
 end
