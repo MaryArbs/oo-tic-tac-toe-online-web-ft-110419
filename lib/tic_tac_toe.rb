@@ -56,14 +56,9 @@ return counter
 end
 
 def current_player
-  if turn_count%2 ==0
-    current_player = "X"
-  else
-    current_player = "O"
-end
-end
+  turn_count% 2 == 0 ? "X" : "O"
 
-end
+
 
 
 
