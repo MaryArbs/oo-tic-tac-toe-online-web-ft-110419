@@ -37,6 +37,11 @@ class TicTacToe
   end
 
   def valid_move?(index)
+    #checking if there is an X or O 
+    if position_taken? 
+      false 
+    else 
+      true 
   end
 
 
