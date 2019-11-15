@@ -28,7 +28,8 @@ class TicTacToe
    string.to_i - 1
   end
 
-  def move(index, player)
+  def move(index, player) # method should change board to have first spot filled
+    @board[index]=player 
 
   end
 
